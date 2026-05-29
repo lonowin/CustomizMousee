@@ -1,7 +1,3 @@
-"""
-config.py — Persistent settings helpers for Customize Mouse.
-The app (app.py) calls these directly; you can also import them from outside.
-"""
 import os
 import json
 
