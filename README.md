@@ -73,12 +73,6 @@ When `Run in Background` is enabled, closing the settings window will not exit t
 
 You can compile the Python scripts into a standalone Windows executable (`.exe`) that runs without requiring a Python installation.
 
-### Method 1: Using `build_exe.bat`
-This script upgrades `pip` and `pyinstaller` before bundling the application as a single windowed/noconsole executable:
-```bash
-# Double-click build_exe.bat or run:
-./build_exe.bat
-```
 
 ### Method 2: Using `build_executable.bat`
 A quick script to build the executable directly via `pyinstaller`:
@@ -98,7 +92,6 @@ CustomizMousee/
 │
 ├── app.py                # Main PyQt5 application, overlays, and system tray logic
 ├── config.py             # Configuration loader, saver, and helper routines
-├── build_exe.bat         # Automated build script (pip upgrade + pyinstaller setup)
 ├── build_executable.bat  # Quick build script using PyInstaller
 ├── README.md             # Project documentation (this file)
 └── [dist/ / build/]      # Formed during PyInstaller compilations
